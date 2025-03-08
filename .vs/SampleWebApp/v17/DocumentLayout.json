@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\SampleMvcWebApp-WithEf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CFFEE5E0-3B99-46E0-9A82-2E74621C17C5}|SampleWebApp\\SampleWebApp.csproj|c:\\dev\\samplemvcwebapp-withef\\samplewebapp\\controllers\\postsasynccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFEE5E0-3B99-46E0-9A82-2E74621C17C5}|SampleWebApp\\SampleWebApp.csproj|solutionrelative:samplewebapp\\controllers\\postsasynccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFFEE5E0-3B99-46E0-9A82-2E74621C17C5}|SampleWebApp\\SampleWebApp.csproj|c:\\dev\\samplemvcwebapp-withef\\samplewebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CFFEE5E0-3B99-46E0-9A82-2E74621C17C5}|SampleWebApp\\SampleWebApp.csproj|solutionrelative:samplewebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PostsAsyncController.cs",
+              "DocumentMoniker": "C:\\dev\\SampleMvcWebApp-WithEf\\SampleWebApp\\Controllers\\PostsAsyncController.cs",
+              "RelativeDocumentMoniker": "SampleWebApp\\Controllers\\PostsAsyncController.cs",
+              "ToolTip": "C:\\dev\\SampleMvcWebApp-WithEf\\SampleWebApp\\Controllers\\PostsAsyncController.cs",
+              "RelativeToolTip": "SampleWebApp\\Controllers\\PostsAsyncController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAnwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T17:19:46.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\dev\\SampleMvcWebApp-WithEf\\SampleWebApp\\Web.config",
               "RelativeDocumentMoniker": "SampleWebApp\\Web.config",

@@ -49,8 +49,21 @@ namespace SampleWebApp.Controllers
             return View(await service.GetAll<SimplePostDtoAsync>().ToListAsync());
         }
 
-        public async Task<ActionResult> Details(int id, IDetailServiceAsync service)
+        public async Task<ActionResult> Details(int id, IDetailServiceAsync service, ICreateSetupServiceAsync setupService, ICreateServiceAsync createService)
         {
+            // we'll write a post for testing purposes
+            var dto = await setupService.GetDtoAsync<DetailPostDtoAsync>();
+            dto.Title = System.Guid.NewGuid().ToString();
+            dto.Content = System.Guid.NewGuid().ToString() + System.Guid.NewGuid().ToString();
+            dto.Bloggers.SelectedValue = "1";
+
+            var tags = new List<string>();
+            tags.Add("1");
+            dto.UserChosenTags.FinalSelection = tags.ToArray();
+
+            await createService.CreateAsync(dto);
+            //dto.UserChosenTags = new ServiceLayer.UiClasses.MultiSelectListType() { InitialSelection =  }
+
             return View((await service.GetDetailAsync<DetailPostDtoAsync>(id)).Result);
         }
 
